@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fitness Buddy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Fitness Buddy 🤖</h1>
+
+  <label for="goal">Select your fitness goal:</label>
+  <select id="goal">
+    <option>Weight Loss</option>
+    <option>Muscle Gain</option>
+    <option>Flexibility</option>
+  </select>
+  <button onclick="generatePlan()">Generate Plan</button>
+
+  <div id="output">
+    <p id="workout"></p>
+    <p id="meal"></p>
+    <p id="motivation"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
